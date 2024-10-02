@@ -30,7 +30,6 @@ const ANTIPASTI : FoodStore[] = [
   { name: "FRITTATINA ZUCCHINE E SPECK", price: 3.00, qt: 1, ingredients: ["accompagnata da fonduta e chips di zucchine"] , img:""},
   { name: "FRITTATINA CARBONARA E TARTUFO", price: 3.00, qt: 1, ingredients: [] , img:""},
   { name: "CROCCHÈ CLASSICO", price: 2.00, qt: 1, ingredients: [] , img:""},
-  { name: "CROCCHÈ CON FRIARIELLI", price: 3.00, qt: 1, ingredients: [] , img:""},
   { name: "CROCCHÈ CON MORTADELLA E PISTACCHIO", price: 3.00, qt: 1, ingredients: [] , img:""},
   { name: "MAIS, FORMAGGIO E PROSCIUTTO", price: 6.00, qt: 1, ingredients: [] , img:""},
   { name: "POLPETTINE CLASSICHE", price: 5.00, qt: 1, ingredients: [] , img:""},
@@ -64,7 +63,7 @@ const BUN : FoodStore[] = [
   { name: "PANINO DELLO CHEF 2.0", price: 11, qt: 1, ingredients: ["Hamburger marchigiana 200gr","caciocavallo silano DOP","cavolo viola coleslaw","crema di zucchine","salsa tartufata homemade"] , img:"Chef2"},
 ]
 
-const CIABATTE : FoodStore[] = [
+const ROSETTE : FoodStore[] = [
   { name: "DENVER", price: 11, qt: 1, ingredients: ["Polpette fritte","caciocavallo silano DOP","melanzane a funghetto","prosciutto crudo di Parma","mayo al basilico dello chef"] , img:"Denver"},
   { name: "SAN DIEGO", price: 11, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","provola di Agerola","prosciutto crudo di Parma","pomodoro cuore di bue","insalata iceberg","mayo"] , img:"Sandiego"},
   { name: "SEATTLE", price: 11, qt: 1, ingredients: ["Banditos","provola di Agerola","verdure infornate (zucchine","peperoni","patate)","prosciutto cotto","mayo al rosmarino dello chef"] , img:"Seattle"},
@@ -139,7 +138,7 @@ const BIBITE : FoodStore[] = [
 
 const VINI : FoodStore[] = [
   { name: "FALANGHINA CAMPANO 75cl", price: 20, qt: 1, ingredients: [] , img:""},
-  { name: "POEDIROSSO CAMPANO 75cl", price: 20, qt: 1, ingredients: [] , img:""},
+  { name: "PIEDIROSSO CAMPANO 75cl", price: 20, qt: 1, ingredients: [] , img:""},
   { name: "BOLLICINE BIANCO 75cl", price: 20, qt: 1, ingredients: [] , img:""},
   { name: "BOLLICINE ROSSO 75cl", price: 20, qt: 1, ingredients: [] , img:""},
 ]
@@ -173,7 +172,7 @@ export default FoodStore;
 export {ANTIPASTI,
   BUN, 
   BUNCLASSICI,
-  CIABATTE, 
+  ROSETTE, 
   WRAP,
   CARNE,
   VEGINSALATE,
