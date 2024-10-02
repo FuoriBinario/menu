@@ -1,3 +1,5 @@
+import ExportImg from "../Resource/ExportImg";
+
 type FoodStore =  {
     name: string,
     price: number,
@@ -86,12 +88,12 @@ const BUNCLASSICI : FoodStore[] = [
 ]
 
 const CARNE : FoodStore[] = [
-  { name: "TAGLIATA DI MARCHIGIANA 300GR", price: 18, qt: 1, ingredients: ["rucola","scaglie di parmigiano","pomodori o pomodori semi-dry"] , img:""},
-  { name: "FILETTO 250GR", price: 20, qt: 1, ingredients: ["patate al forno di Avezzano e/o verdure grill o misticanza e cavolo viola"] , img:""},
-  { name: "ENTRECOTE 300GR", price: 20, qt: 1, ingredients: ["patate fritte e/o verdure grill o misticanza e cavolo viola"] , img:""},
-  { name: "HAMBURGER DI GRANA 300GR", price: 14, qt: 1, ingredients: ["misticanza e/o verdure grill o patate al forno/fritte e cavolo viola"] , img:""},
-  { name: "HAMBURGER DI MARCHIGIANA 250GR", price: 14, qt: 1, ingredients: [" misticanza o zucchine arrostite o patate al forno/fritte e cavolo viola"] , img:""},
-  { name: "PULLED PORK", price: 8, qt: 1, ingredients: ["insalata iceberg o patate al forno/fritte e cavolo viola"] , img:""},
+  { name: "TAGLIATA DI MARCHIGIANA 300GR", price: 18, qt: 1, ingredients: ["rucola","scaglie di parmigiano","pomodori o pomodori semi-dry"] , img:"Tagliata"},
+  { name: "FILETTO 250GR", price: 20, qt: 1, ingredients: ["patate al forno di Avezzano e/o verdure grill o misticanza", "cavolo viola"] , img:"Filetto"},
+  { name: "ENTRECOTE 300GR", price: 20, qt: 1, ingredients: ["patate fritte e/o verdure grill o misticanza", "cavolo viola"] , img:"Entrecote"},
+  { name: "HAMBURGER DI GRANA 300GR", price: 14, qt: 1, ingredients: ["misticanza e/o verdure grill o patate al forno/fritte", "cavolo viola"] , img:"HamburgerDiGrana"},
+  { name: "HAMBURGER DI MARCHIGIANA 250GR", price: 14, qt: 1, ingredients: [" misticanza o zucchine arrostite" ,"o patate al forno/fritte e cavolo viola"] , img:"HamburgerMarchig"},
+  { name: "PULLED PORK", price: 8, qt: 1, ingredients: ["insalata iceberg", "o patate al forno/fritte e cavolo viola"] , img:"Pulledpork"},
 ]
 
 const VEGINSALATE : FoodStore[] = [

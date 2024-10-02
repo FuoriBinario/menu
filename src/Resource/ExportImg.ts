@@ -27,6 +27,13 @@ import Sanfrancisco from "./panini/sanfrancisco.jpg";
 import Santabrarbara from "./panini/santabrarbara.jpg";
 import Texas from "./panini/texas.jpg";
 
+import Entrecote from "./carni/entrecote.jpg";
+import Filetto from "./carni/filetto.jpg";
+import HamburgerDiGrana from "./carni/hamburgerdigrana.jpg";
+import HamburgerMarchig from "./carni/hamburgermarchig.jpg";
+import Pulledpork from "./carni/pulledpork.jpg";
+import Tagliata from "./carni/tagliata.jpg";
+
 export default {
     Logo,
     Manhattan,
@@ -54,5 +61,11 @@ export default {
     Sanfrancisco, 
     Santabrarbara,
     Texas,
+    Entrecote,
+    Filetto,
+    HamburgerDiGrana,
+    HamburgerMarchig,
+    Pulledpork,
+    Tagliata,
     NotFound
 }

@@ -17,9 +17,9 @@ import ImgVegInsalate from "./../Resource/category/veginsalate.png";
 import ImgContorni from "./../Resource/category/contorni.png";
 import ImgBibite  from "./../Resource/category/bibite.png";
 import ImgVini from "./../Resource/category/vini.png";
-import ImgBirreSpina from "./../Resource/category/birrespina.png";
+import ImgBirreSpina from "./../Resource/category/birrespina.jpg";
 import ImgBirreBottiglia from "./../Resource/category/birrebottiglia.jpg";
-import ImgDolci from "./../Resource/category/birrebottiglia.jpg";
+import ImgDolci from "./../Resource/category/dolci.png";
 
 import PaninoDelMese from "./../Resource/panini/newyork.jpg";
 import FritturaDelMese from "./../Resource/specialita/frittura.jpg";
