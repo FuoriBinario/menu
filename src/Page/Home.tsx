@@ -21,7 +21,7 @@ import ImgBirreSpina from "./../Resource/category/birrespina.jpg";
 import ImgBirreBottiglia from "./../Resource/category/birrebottiglia.jpg";
 import ImgDolci from "./../Resource/category/dolci.png";
 
-import PaninoDelMese from "./../Resource/panini/newyork.jpg";
+import PaninoDelMese from "./../Resource/specialita/panino.jpg";
 import FritturaDelMese from "./../Resource/specialita/frittura.jpg";
 
 import ImgStatusMenu from "./../Resource/icon/statusMenu.png";
@@ -52,25 +52,25 @@ function Home() {
             <div className={style.hiro}>
                 <div className={style.meseBox}>
                     <img src={PaninoDelMese} title="panino del mese" alt="foto panino del mese"/>
-                    <p>NEW York</p>
+                    <p>San Antonio</p>
                 </div>
                 <ul>
-                    <li>Cotoletta di pollo crispy leggeremente speziata, </li>
-                    <li>pomodori cuore di bue, </li>
-                    <li>mais, </li>
-                    <li>insalata iceberg, </li>
-                    <li>parmacotto, </li>
-                    <li>mayo </li>
+                    <li>Hamburger marchigiana 200gr, </li>
+                    <li>baconnaise, </li>
+                    <li>doppio bacon crispy, </li>
+                    <li>patate al forno, </li>
+                    <li>salsa special </li>
                 </ul>
     
                 <ul className={style.rotateHiro}>
-                    <li>Frittatina zucchine e speck, </li>
-                    <li>fonduta, </li>
-                    <li>chips di zucchine</li>
+                    <li>funghi porcini e zafferano, </li>
+                    <li>cuore di provola e salsiccia,</li>
+                    <li>su un letto di crema di funghi porcini e fonduta di parmigiano</li>
+
                 </ul>
                 <div className={style.meseBox +" "+ style.rotateHiro}>
                     <img src={FritturaDelMese} title="frittura del mese" alt="foto frittura del mese"/>
-                    <p>Frittura del mese</p>
+                    <p>Arancinon con salciccia</p>
                 </div>
             </div>
             <h2>Menu</h2>
