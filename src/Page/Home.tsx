@@ -4,7 +4,7 @@ import style from "./stylepage/Home.module.css";
 
 import CategoryCard from "./../Component/CategoryCard/CategoryCard";
 
-import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP, BUNCLASSICI, CARNE, VEGINSALATE, CONTORNI, BIBITE, VINI, BIRREALLASPINA, BIRREINBOTTIGLIA, DOLCI} from "./../FoodStore/FoodStore"
+import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP, BUNCLASSICI, CARNE, VEGINSALATE, CONTORNI, BIBITE, BIRREALLASPINA, DOLCI} from "./../FoodStore/FoodStore"
 
 
 import ImgAntipasti from "./../Resource/category/antipasti.jpg";
@@ -16,9 +16,7 @@ import ImgCarne from "./../Resource/category/carne.jpg";
 import ImgVegInsalate from "./../Resource/category/veginsalate.png";
 import ImgContorni from "./../Resource/category/contorni.png";
 import ImgBibite  from "./../Resource/category/bibite.png";
-import ImgVini from "./../Resource/category/vini.png";
 import ImgBirreSpina from "./../Resource/category/birrespina.jpg";
-import ImgBirreBottiglia from "./../Resource/category/birrebottiglia.jpg";
 import ImgDolci from "./../Resource/category/dolci.png";
 
 import PaninoDelMese from "./../Resource/specialita/panino.jpg";
@@ -52,25 +50,25 @@ function Home() {
             <div className={style.hiro}>
                 <div className={style.meseBox}>
                     <img src={PaninoDelMese} title="panino del mese" alt="foto panino del mese"/>
-                    <p>San Antonio</p>
+                    <p>BUFFALO</p>
                 </div>
                 <ul>
                     <li>Hamburger marchigiana 200gr, </li>
-                    <li>baconnaise, </li>
-                    <li>doppio bacon crispy, </li>
-                    <li>patate al forno, </li>
-                    <li>salsa special </li>
+                    <li>patate Avezzano al forno, </li>
+                    <li>provola crispy, </li>
+                    <li>friarielli, </li>
+                    <li>battuto di pomodoro secco, </li>
+                    <li>mayo al pepe, </li>
+                    <li>sbriciolata di nocciole, </li>
                 </ul>
     
                 <ul className={style.rotateHiro}>
-                    <li>funghi porcini e zafferano, </li>
-                    <li>cuore di provola e salsiccia,</li>
-                    <li>su un letto di crema di funghi porcini e fonduta di parmigiano</li>
-
+                    <li>Buffalo chicken wings, </li>
+                    <li>spezie</li>
                 </ul>
                 <div className={style.meseBox +" "+ style.rotateHiro}>
                     <img src={FritturaDelMese} title="frittura del mese" alt="foto frittura del mese"/>
-                    <p>Arancinon con salciccia</p>
+                    <p>Buffalo chicken</p>
                 </div>
             </div>
             <h2>Menu</h2>
@@ -86,8 +84,6 @@ function Home() {
                 <CategoryCard name="Contorni" route="#contorni" img={ImgContorni} onClick={e => toggleMenu(e, "contorni")}/>
                 <CategoryCard name="Bibite" route="#bibite" img={ImgBibite} onClick={e => toggleMenu(e, "bibite")}/>
                 <CategoryCard name="Birre alla spina" route="#birreallaspina" img={ImgBirreSpina} onClick={e => toggleMenu(e, "birreallaspina")}/>
-                <CategoryCard name="Birre in bottiglia" route="#birreinbottiglia" img={ImgBirreBottiglia} onClick={e => toggleMenu(e, "birreinbottiglia")}/>
-                <CategoryCard name="Vini" route="#vini" img={ImgVini} onClick={e => toggleMenu(e, "vini")}/>
                 <CategoryCard name="Dolci" route="#dolci" img={ImgDolci} onClick={e => toggleMenu(e, "dolci")}/>
             </div>
             <div>
@@ -182,16 +178,6 @@ function Home() {
                             {BIBITE.map((food : FoodStore, index) => <FoodInLine food={food} treno="BIBITE" key={index+"_"+food.name}/>)}
                         </div>
                     </li>
-                    <li id="vini" className={style.listBox}>
-                        <div className={style.menuCategory}>
-                            <p>Vini</p>
-                            <Link to="#navigation" reloadDocument>Vai su</Link>
-                            <button onClick={e => toggleMenu(e , "vini", true)}><img src={ImgStatusMenu} title="mostra/nascondi" alt="icona"/></button>
-                        </div>
-                        <div className={style.list}>
-                            {VINI.map((food : FoodStore, index) => <FoodInLine food={food} treno="VINI" key={index+"_"+food.name}/>)}
-                        </div>
-                    </li>
                     <li id="birreallaspina" className={style.listBox}>
                         <div className={style.menuCategory}>
                             <p>Birre alla spina</p>
@@ -200,16 +186,6 @@ function Home() {
                         </div>
                         <div className={style.list}>
                             {BIRREALLASPINA.map((food : FoodStore, index) => <FoodInLine food={food} treno="BIRRE ALLA SPINA" key={index+"_"+food.name}/>)}
-                        </div>
-                    </li>
-                    <li id="birreinbottiglia" className={style.listBox}>
-                        <div className={style.menuCategory}>
-                            <p>Birre in bottiglia</p>
-                            <Link to="#navigation" reloadDocument>Vai su</Link>
-                            <button onClick={e => toggleMenu(e , "birreinbottiglia", true)}><img src={ImgStatusMenu} title="mostra/nascondi" alt="icona"/></button>
-                        </div>
-                        <div className={style.list}>
-                            {BIRREINBOTTIGLIA.map((food : FoodStore, index) => <FoodInLine food={food} treno="BIRRE IN BOTTIGLIA" key={index+"_"+food.name}/>)}
                         </div>
                     </li>
                     <li id="dolci" className={style.listBox}>
