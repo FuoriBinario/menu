@@ -75,7 +75,7 @@ const WRAP : FoodStore[] = [
   { name: "NASHVILLE", price: 12, qt: 1, ingredients: ["Pulled pork homemade cottura slow and low","bacon croccante","patate fritte","english cheddar orange","cipolla di tropea caramellata","salsa bbq","mayo"] , img:""},
   { name: "MEMPHIS", price: 14, qt: 1, ingredients: ["Straccetti di carne marchigiana","patatine fritte","cheddar","insalata","bacon croccante","cipolla croccante","bbq","mayo"] , img:""},
   { name: "INDIANAPOLIS", price: 10, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","prosciutto crudo di Parma","friarielli","tarallo napoletano sbriciolato","mayo al pepe homemade"] , img:""},
-  { name: "DALLAS", price: 9, qt: 1, ingredients: ["Melanzane grigliate","pomodori secchi","patate al forno di Avezzano","misticanza","caciocavallo silano DOP","mayo al basilico homemade"] , img:""},
+  { name: "DALLAS", price: 12, qt: 1, ingredients: ["Melanzane grigliate","pomodori secchi","patate al forno di Avezzano","misticanza","caciocavallo silano DOP","mayo al basilico homemade"] , img:""},
 ]
 
 const BUNCLASSICI : FoodStore[] = [
