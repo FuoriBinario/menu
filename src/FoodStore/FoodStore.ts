@@ -26,7 +26,7 @@ const ANTIPASTI : FoodStore[] = [
   { name: "PATATE AL FORNO CON CHEDDAR E BACON", price: 8.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE AL FORNO CON POLPETTE E FONDUTA CACIO E PEPE", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "FRITTATINA ZUCCHINE E SPECK", price: 3.00, qt: 1, ingredients: ["accompagnata da fonduta e chips di zucchine"] , img:""},
-  { name: "FRITTATINA CARBONARA E TARTUFO", price: 3.00, qt: 1, ingredients: [] , img:""},
+  { name: "FRITTATINA PISTACCHIO E BACON", price: 3.00, qt: 1, ingredients: [] , img:""},
   { name: "CROCCHÈ CLASSICO", price: 2.00, qt: 1, ingredients: [] , img:""},
   { name: "CROCCHÈ CON MORTADELLA E PISTACCHIO", price: 3.00, qt: 1, ingredients: [] , img:""},
   { name: "MAIS, FORMAGGIO E PROSCIUTTO", price: 6.00, qt: 1, ingredients: [] , img:""},
