@@ -15,7 +15,7 @@ const ANTIPASTI : FoodStore[] = [
   { name: "PATATE STICK CON PULLED PORK E CHEDDAR", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON CACIO E PEPE E POLPETTINE", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON BACON E CHEDDAR", price: 7.00, qt: 1, ingredients: [] , img:""},
-  { name: "PATATE STICK CON SALSA DI FONDUTA DI PARMIGIANO", price: 7.00, qt: 1, ingredients: [] , img:""},
+  { name: "PATATE STICK CON SALSICCIA DI FONDUTA DI PARMIGIANO", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON TOCCHETTI A SCELTA", price: 6.00, qt: 1, ingredients: ["WURSTEL", "SALSICCIA", "PORCHETTA", "BACON", "POLPETTINE DI MANZO"] , img:""},
   { name: "PATATE CHIPS CLASSICHE", price: 5.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE CHIPS CON PEPE ROSA E LIME", price: 7.00, qt: 1, ingredients: [] , img:""},
@@ -35,6 +35,7 @@ const ANTIPASTI : FoodStore[] = [
   { name: "POLPETTINE CON FONDUTA CACIO E PEPE", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "POLPETTINE CON FONDUTA DI PARMIGIANO", price: 6.00, qt: 1, ingredients: [] , img:""},
   { name: "POLPETTINE DI PULLED PORK CON CUORE DI CHEDDAR", price: 6.00, qt: 3, ingredients: [] , img:""},
+  { name: "ANELLI DI POLLO AL BACON", price: 4.00, qt: 6, ingredients: [] , img:""},
 ];
 
 
