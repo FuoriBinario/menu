@@ -40,7 +40,7 @@ const ANTIPASTI : FoodStore[] = [
 
 
 const BUN : FoodStore[] = [
-  { name: "SAN ANTONIO", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","baconnaise", "doppio bacon crispy", "patate al forno", "salsa special"] , img:"Santantonio"},
+  { name: "SAN ANTONIO", price: 14, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","baconnaise", "doppio bacon crispy", "patate al forno", "salsa special"] , img:"Santantonio"},
   { name: "BOSTON", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","english cheddar orange", "bacon croccante", "patatine fritte", "cipolla di tropea caramellata", "salsa bbq", "mayo"] , img:"Boston"},
   { name: "PHILADELPHIA", price: 15, qt: 1, ingredients: ["Hamburger di grana 300gr","verdure infornate (peperoni, zucchine, patate)", "doppio formaggio fuso", "parmacotto","uova", "mayo"] , img:"Philadelphia"},
   { name: "LOS ANGELES", price: 12, qt: 1, ingredients: ["Sovracosce di pollo crispy", "patate di Avezzano al forno", "caciocavallo silano DOP", "bacon croccante", "mayo al peperoncino dello chef"] , img:"Losangeles"},
