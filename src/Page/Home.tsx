@@ -4,7 +4,7 @@ import style from "./stylepage/Home.module.css";
 
 import CategoryCard from "./../Component/CategoryCard/CategoryCard";
 
-import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP, BUNCLASSICI, CARNE, VEGINSALATE, CONTORNI, BIBITE, BIRREALLASPINA, DOLCI} from "./../FoodStore/FoodStore"
+import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP, CLASSICI, CARNE, VEGINSALATE, CONTORNI, BIBITE, BIRREALLASPINA, DOLCI, TEGAMINI} from "./../FoodStore/FoodStore"
 
 
 import ImgAntipasti from "./../Resource/category/antipasti.jpg";
@@ -74,10 +74,11 @@ function Home() {
 
             <div className={style.categoryBox} id="navigation">
                 <CategoryCard name="Antipasti" route="#antipasti" img={ImgAntipasti} onClick={e => toggleMenu(e, "antipasti")}/>
+                <CategoryCard name="Tegamini al forno" route="#tegamini" img={ImgContorni} onClick={e => toggleMenu(e, "tegamini")}/>
                 <CategoryCard name="Bun" route="#bun" img={ImgBun} onClick={e => toggleMenu(e, "bun")}/>
                 <CategoryCard name="Rosette" route="#rosette" img={ImgCiabatte} onClick={e => toggleMenu(e, "rosette")}/>
                 <CategoryCard name="Wrap" route="#wrap" img={ImgWrap} onClick={e => toggleMenu(e, "wrap")}/>
-                <CategoryCard name="Bun classici" route="#bunclassici" img={ImgBunClassic} onClick={e => toggleMenu(e, "bunclassici")}/>
+                <CategoryCard name="Classici" route="#classici" img={ImgBunClassic} onClick={e => toggleMenu(e, "classici")}/>
                 <CategoryCard name="Carne" route="#carne" img={ImgCarne} onClick={e => toggleMenu(e, "carne")}/>
                 <CategoryCard name="Veg Insalate" route="#veginsalate" img={ImgVegInsalate} onClick={e => toggleMenu(e, "veginsalate")}/>
                 <CategoryCard name="Contorni" route="#contorni" img={ImgContorni} onClick={e => toggleMenu(e, "contorni")}/>
@@ -95,6 +96,16 @@ function Home() {
                         </div>
                         <div className={style.list}>
                             {ANTIPASTI.map((food : FoodStore, index) => <FoodInLine food={food} treno="ANTIPASTO" key={index+"_"+food.name}/>)}
+                        </div>
+                    </li>
+                    <li id="tegamini" className={style.listBox}>
+                        <div className={style.menuCategory}>
+                            <p>Tegamini</p>
+                            <Link to="#navigation" reloadDocument>Vai su</Link>
+                            <button onClick={e => toggleMenu(e , "tegamini", true)}><img src={ImgStatusMenu} title="mostra/nascondi" alt="icona"/></button>
+                        </div>
+                        <div className={style.list}>
+                            {TEGAMINI.map((food : FoodStore, index) => <FoodInLine food={food} treno="TEGAMINI" key={index+"_"+food.name}/>)}
                         </div>
                     </li>
                     <li id="bun" className={style.listBox}>
@@ -127,14 +138,14 @@ function Home() {
                             {WRAP.map((food : FoodStore, index) => <FoodInLine food={food} treno="WRAP" key={index+"_"+food.name}/>)}
                         </div>
                     </li>
-                    <li id="bunclassici" className={style.listBox}>
+                    <li id="classici" className={style.listBox}>
                         <div className={style.menuCategory}>
-                            <p>Bun classici</p>
+                            <p>Classici</p>
                             <Link to="#navigation" reloadDocument>Vai su</Link>
-                            <button onClick={e => toggleMenu(e , "bunclassici", true)}><img src={ImgStatusMenu} title="mostra/nascondi" alt="icona"/></button>
+                            <button onClick={e => toggleMenu(e , "classici", true)}><img src={ImgStatusMenu} title="mostra/nascondi" alt="icona"/></button>
                         </div>
                         <div className={style.list}>
-                            {BUNCLASSICI.map((food : FoodStore, index) => <FoodInLine food={food} treno="Bun CLASSICI" key={index+"_"+food.name}/>)}
+                            {CLASSICI.map((food : FoodStore, index) => <FoodInLine food={food} treno="CLASSICI" key={index+"_"+food.name}/>)}
                         </div>
                     </li>
                     <li id="carne" className={style.listBox}>
