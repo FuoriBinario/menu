@@ -63,7 +63,7 @@ function Home() {
                 <ul className={style.rotateHiro}>
                     <li>Arancino alla bolognese, </li>
                     <li>cuore filante di provola, </li>
-                    <li>letto di fonduta di parmigiana,</li>
+                    <li>letto di fonduta di parmigiano,</li>
                     <li>pesto al basilico</li>
                 </ul>
                 <div className={style.meseBox +" "+ style.rotateHiro}>
