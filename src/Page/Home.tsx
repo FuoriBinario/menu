@@ -50,24 +50,25 @@ function Home() {
             <div className={style.hiro}>
                 <div className={style.meseBox}>
                     <img src={PaninoDelMese} title="panino del mese" alt="foto panino del mese"/>
-                    <p>EL PASO</p>
+                    <p>NEW YORK</p>
                 </div>
                 <ul>
-                    <li>Hamburger di maialino, </li>
-                    <li>cavolo viola, </li>
-                    <li>caciocavallo, </li>
-                    <li>prosciutto crudo, </li>
-                    <li>funghi, </li>
-                    <li>mayo piccante</li>
+                    <li>Hamburger 200g, </li>
+                    <li>bacon, </li>
+                    <li>provola crispy, </li>
+                    <li>parmigiana di melanzane bianca, </li>
+                    <li>mayo al basilico </li>
                 </ul>
     
                 <ul className={style.rotateHiro}>
-                    <li>Bocconcini cacio e pepe, </li>
-                    <li>miele di castagno</li>
+                    <li>Arancino alla bolognese, </li>
+                    <li>cuore filante di provola, </li>
+                    <li>letto di fonduta di parmigiana,</li>
+                    <li>pesto al basilico</li>
                 </ul>
                 <div className={style.meseBox +" "+ style.rotateHiro}>
                     <img src={FritturaDelMese} title="frittura del mese" alt="foto frittura del mese"/>
-                    <p>Bocconcini</p>
+                    <p>Arancino degli innamorati</p>
                 </div>
             </div>
             <h2>Menu</h2>
