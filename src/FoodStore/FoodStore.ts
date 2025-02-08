@@ -13,7 +13,7 @@ const ANTIPASTI : FoodStore[] = [
   { name: "PATATE STICK CLASSICHE", price: 6.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON PULLED PORK E CHEDDAR", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON CACIO E PEPE E POLPETTINE", price: 7.00, qt: 1, ingredients: [] , img:""},
-  { name: "PATATE STICK CON BACON E CHEDDAR", price: 7.00, qt: 1, ingredients: [] , img:""},
+  { name: "PATATE STICK CON BACON E CHEDDAR", price: 8.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON SALSICCIA DI FONDUTA DI PARMIGIANO", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON TOCCHETTI A SCELTA", price: 6.00, qt: 1, ingredients: ["WURSTEL", "SALSICCIA", "PORCHETTA", "BACON", "POLPETTINE DI MANZO"] , img:""},
   { name: "PATATE CHIPS CLASSICHE", price: 5.00, qt: 1, ingredients: [] , img:""},
@@ -24,7 +24,7 @@ const ANTIPASTI : FoodStore[] = [
   { name: "PATATE AL FORNO CON CACIOCAVALLO, MORTADELLA E CREMA DI PISTACCHIO", price: 8.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE AL FORNO CON CHEDDAR E BACON", price: 8.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE AL FORNO CON POLPETTE E FONDUTA CACIO E PEPE", price: 7.00, qt: 1, ingredients: [] , img:""},
-  { name: "FRITTATINA ZUCCHINE E SPECK", price: 3.00, qt: 1, ingredients: ["accompagnata da fonduta e chips di zucchine"] , img:""},
+  { name: "FRITTATINA ZUCCHINE E SPECK", price: 4.00, qt: 1, ingredients: ["accompagnata da fonduta e chips di zucchine"] , img:""},
   { name: "FRITTATINA PISTACCHIO E BACON", price: 3.00, qt: 1, ingredients: [] , img:""},
   { name: "FRITTATINA AGLIO OLIO E PEPERONCINO", price: 4.00, qt: 1, ingredients: [] , img:""},
   { name: "CROCCHÈ CLASSICO", price: 2.00, qt: 1, ingredients: [] , img:""},
@@ -34,7 +34,7 @@ const ANTIPASTI : FoodStore[] = [
   { name: "POLPETTINE CON FONDUTA CACIO E PEPE", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "POLPETTINE CON FONDUTA DI PARMIGIANO", price: 6.00, qt: 1, ingredients: [] , img:""},
   { name: "POLPETTINE DI PULLED PORK CON CUORE DI CHEDDAR", price: 6.00, qt: 3, ingredients: [] , img:""},
-  { name: "ANELLI DI POLLO AL BACON", price: 4.00, qt: 6, ingredients: [] , img:""},
+  { name: "ANELLI DI POLLO AL BACON", price: 6.00, qt: 6, ingredients: [] , img:""},
 ];
 
 const TEGAMINI : FoodStore[] = [
@@ -56,7 +56,7 @@ const BUN : FoodStore[] = [
   { name: "SANTA BARBARA", price: 10, qt: 1, ingredients: ["Hamburger di maiale nero casertano 180gr", "provola di Agerola", "mortadella di bologna IGP", "patate al forno di Avezzano", "crema di pistacchio homemade"] , img:"Santabrarbara"},
   { name: "SAN FRANCISCO", price: 16, qt: 1, ingredients: ["Doppio hamburger marchigiana 200gr", "doppio english cheddar orange", "doppio bacon croccante", "doppia cipolla di tropea caramellata", "patate fritte"] , img:"Sanfrancisco"},
   { name: "LAS VEGAS", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 200gr", "parmigiana di melanzane bianca","patate al forno di Avezzano", "provola crispy","bacon croccante", "crema al pesto di basilico homemade"] , img:"Lasvegas"},
-  { name: "MONTEREY", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 250gr", "provola crispy", "parmigiana di melanzane bianca"] , img:"Monterey"},
+  { name: "MONTEREY", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 250gr", "provola crispy", "parmigiana di melanzane bianca", "funghi champignon trifolati"] , img:"Monterey"},
   { name: "NEW ORLEANS", price: 12, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr", "provola crispy","parmigiana di patate", "parmacotto", "tarallo sbriciolato", "mayo al pepe dello chef"] , img:"Neworleans"},
   { name: "COLORADO", price: 13, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","provola crispy","funghi champignon trifolati","battuto di pomodoro secco", "petali di formaggio", "prosciutto crudo di Parma","crema di funghi"] , img:"Colorado"},
   { name: "MIAMI", price: 10, qt: 1, ingredients: ["Pulled pork cottura slow and low","caciocavallo Irpino","cavolo viola coleslaw","cipolla di tropea caramellata"] , img:"Miami"},
@@ -84,7 +84,7 @@ const ROSETTE : FoodStore[] = [
 
 const WRAP : FoodStore[] = [
   { name: "MISSOURI", price: 13, qt: 1, ingredients: ["Banditos","misticanza","pomodori secchi","cipolla di tropea caramellata","caciocavallo silano DOP","mayo"] , img:""},
-  { name: "NASHVILLE", price: 12, qt: 1, ingredients: ["Pulled pork homemade cottura slow and low","bacon croccante","patate fritte","english cheddar orange","cipolla di tropea caramellata","salsa bbq","mayo"] , img:""},
+  { name: "NASHVILLE", price: 14, qt: 1, ingredients: ["Pulled pork homemade cottura slow and low","bacon croccante","patate fritte","english cheddar orange","cipolla di tropea caramellata","salsa bbq","mayo"] , img:""},
   { name: "MEMPHIS", price: 14, qt: 1, ingredients: ["Straccetti di carne marchigiana","patatine fritte","cheddar","insalata","bacon croccante","cipolla croccante","bbq","mayo"] , img:""},
   { name: "INDIANAPOLIS", price: 13, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","prosciutto crudo di Parma","friarielli","tarallo napoletano sbriciolato","provola","mayo al pepe homemade"] , img:""},
   { name: "DALLAS", price: 12, qt: 1, ingredients: ["Melanzane grigliate","pomodori secchi","patate al forno di Avezzano","misticanza","caciocavallo silano DOP","mayo al basilico homemade"] , img:""},
@@ -97,7 +97,7 @@ const CLASSICI : FoodStore[] = [
   { name: "BUN CLASSICO 3", price: 7, qt: 1, ingredients: ["Cotoletta di pollo crispy", "provola d'agerola", "insalata iceberg","pomodoro Sorrento"] , img:""},
   { name: "BUN CLASSICO 4", price: 6, qt: 1, ingredients: ["Hamburger di marchigiana 200gr", "sottiletta", "parmacotto"] , img:""},
   { name: "BUN CLASSICO 5", price: 6, qt: 1, ingredients: ["Wurstel", "patate fritte stick", "provola d'agerola"] , img:""},
-  { name: "BUN CLASSICO 6", price: 6, qt: 1, ingredients: ["Porchetta di Ariccia","provola d'agerola","funghi champignon trifolati"] , img:""},
+  { name: "BUN CLASSICO 6", price: 7, qt: 1, ingredients: ["Porchetta di Ariccia","provola d'agerola","funghi champignon trifolati"] , img:""},
   { name: "ROSETTA CLASSICA 1", price: 7, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr", "Provola d'agerola", "friarielli"] , img:""},
   { name: "ROSETTA CLASSICA 2", price: 7, qt: 1, ingredients: ["Porchetta di Ariccia", "Provola d'agerola", "Melanzane grigliate"] , img:""}
 ]
@@ -115,8 +115,7 @@ const VEGINSALATE : FoodStore[] = [
   { name: "CROCCHE CLASSICO", price: 2, qt: 1, ingredients: [] , img:""},
   { name: "OKLAHOMA WRAP", price: 12, qt: 1, ingredients: ["Zucchine grigliate, patate al forno di Avezzano, provola di Agerola, pomodori semi-dry, nocciole del Piemonte, mayo al pepe dello chef"] , img:""},
   { name: "DALLAS WRAP", price: 12, qt: 1, ingredients: ["Melanzane grigliate, pomodori secchi, patate al forno di Avezzano, misticanza insalata mista, caciocavallo silano DOP, mayo al basilico dello chef"] , img:""},
-  { name: "VIRGINIA BUN", price: 14, qt: 1, ingredients: ["Verdure infornate (zucchine,peperoni,patate), hamburger vegetariano,caciocavallo silano DOP, melanzane grill, nocciole del Piemonte IGP e mayo al peperoncino dello chef"] , img:""},
-  { name: "CALIFORNIA", price: 13, qt: 1, ingredients: ["Insalata, carote, pomodorini, melanzane grill, mozzarelline dei monti lattari, mais e crostini"] , img:""},
+  { name: "VIRGINIA BUN", price: 14, qt: 1, ingredients: ["hamburger vegetariano,caciocavallo silano DOP, melanzane grill, nocciole del Piemonte IGP e mayo al peperoncino dello chef","patate al forno"] , img:""},
   { name: "NEVADA", price: 10, qt: 1, ingredients: ["Insalata,rucola, cipolla rossa, pomodorini, zucchine grill, crostini, tonno rio mare, olive nere, pomodori semi-dry"] , img:""},
   { name: "CALIFORNIA", price: 12, qt: 1, ingredients: ["Insalata, carote,pomodorini, melanzane grill, mozzarelline dei monti lattari, mais,crostini"] , img:""},
   { name: "TENNESSEE", price: 10, qt: 1, ingredients: ["Pollo alla piastra, insalata iceberg, crostini, uovo sodo, fonduta di formaggio e scaglie di parmigiano"] , img:""},
@@ -131,6 +130,7 @@ const CONTORNI : FoodStore[] = [
   { name: "CIPOLLA CARAMELLATA", price: 4, qt: 1, ingredients: [] , img:""},
   { name: "PATATE AL FORNO", price: 5, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK", price: 5, qt: 1, ingredients: [] , img:""},
+
   { name: "INSALATA ICEBERG ", price: 3, qt: 1, ingredients: [] , img:""},
   { name: "MISTICANZA (insalata mista)", price: 3, qt: 1, ingredients: [] , img:""},
   { name: "POMODORI SORRENTO", price: 3, qt: 1, ingredients: [] , img:""},
@@ -155,9 +155,11 @@ const BIRREALLASPINA : FoodStore[] = [
   { name: "BROOKLYN IPA", price: 4.50, qt: 1, ingredients: ["25cl"] , img:""},
   { name: "BROOKLYN IPA", price: 8.50, qt: 1, ingredients: ["40cl"] , img:""},
   { name: "GRIMBERGEN (blonde)", price: 4.00, qt: 1, ingredients: ["25cl"] , img:""},
+  { name: "GRIMBERGEN (blonde)", price: 8.00, qt: 1, ingredients: ["50cl"] , img:""},
+  { name: "GRIMBERGEN (Double ambrèe)", price: 4.00, qt: 1, ingredients: ["25cl"] , img:""},
   { name: "GRIMBERGEN (Double ambrèe)", price: 8.00, qt: 1, ingredients: ["50cl"] , img:""},
   { name: "CARLSBERG (Special brew)", price: 4.00, qt: 1, ingredients: ["25cl"] , img:""},
-  { name: "CARLSBERG (Special brew)", price: 8.00, qt: 1, ingredients: ["50cl"] , img:""},
+  { name: "CARLSBERG (Special brew)", price: 8.00, qt: 1, ingredients: ["40cl"] , img:""},
 ]
 
 const DOLCI : FoodStore[] = [
