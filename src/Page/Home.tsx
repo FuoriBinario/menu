@@ -4,7 +4,7 @@ import style from "./stylepage/Home.module.css";
 
 import CategoryCard from "./../Component/CategoryCard/CategoryCard";
 
-import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP, CLASSICI, CARNE, VEGINSALATE, CONTORNI, BIBITE, BIRREALLASPINA, DOLCI, TEGAMINI} from "./../FoodStore/FoodStore"
+import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP/*, CLASSICI*/, CARNE, VEGINSALATE, CONTORNI, BIBITE, BIRREALLASPINA, DOLCI, TEGAMINI} from "./../FoodStore/FoodStore"
 
 
 import ImgAntipasti from "./../Resource/category/antipasti.jpg";
@@ -79,7 +79,7 @@ function Home() {
                 <CategoryCard name="Bun" route="#bun" img={ImgBun} onClick={e => toggleMenu(e, "bun")}/>
                 <CategoryCard name="Rosette" route="#rosette" img={ImgCiabatte} onClick={e => toggleMenu(e, "rosette")}/>
                 <CategoryCard name="Wrap" route="#wrap" img={ImgWrap} onClick={e => toggleMenu(e, "wrap")}/>
-                <CategoryCard name="Classici" route="#classici" img={ImgBunClassic} onClick={e => toggleMenu(e, "classici")}/>
+                {/* <CategoryCard name="Classici" route="#classici" img={ImgBunClassic} onClick={e => toggleMenu(e, "classici")}/> */}
                 <CategoryCard name="Carne" route="#carne" img={ImgCarne} onClick={e => toggleMenu(e, "carne")}/>
                 <CategoryCard name="Veg Insalate" route="#veginsalate" img={ImgVegInsalate} onClick={e => toggleMenu(e, "veginsalate")}/>
                 <CategoryCard name="Contorni" route="#contorni" img={ImgContorni} onClick={e => toggleMenu(e, "contorni")}/>
@@ -139,7 +139,7 @@ function Home() {
                             {WRAP.map((food : FoodStore, index) => <FoodInLine food={food} treno="WRAP" key={index+"_"+food.name}/>)}
                         </div>
                     </li>
-                    <li id="classici" className={style.listBox}>
+                    {/* <li id="classici" className={style.listBox}>
                         <div className={style.menuCategory}>
                             <p>Classici</p>
                             <Link to="#navigation" reloadDocument>Vai su</Link>
@@ -148,7 +148,7 @@ function Home() {
                         <div className={style.list}>
                             {CLASSICI.map((food : FoodStore, index) => <FoodInLine food={food} treno="CLASSICI" key={index+"_"+food.name}/>)}
                         </div>
-                    </li>
+                    </li> */}
                     <li id="carne" className={style.listBox}>
                         <div className={style.menuCategory}>
                             <p>Carne</p>
