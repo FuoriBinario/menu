@@ -82,7 +82,7 @@ const ROSETTE : FoodStore[] = [
   { name: "WASHINGTON", price: 12, qt: 1, ingredients: ["Porchetta di Ariccia","provola di Agerola crispy","prosciutto crudo di Parma","friarielli","mayo al peperoncino"] , img:"Washington"},
   { name: "CINCINNATI", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana grana padano DOP 300gr","caciocavallo Irpino","friarielli","mayo al peperoncino"] , img:"Cincinnati"},
   { name: "KANSAS", price: 13, qt: 1, ingredients: ["Spezzatino alla birra Guinness", "patate al forno di Avezzano","fonduta di parmigiano reggiano Dop"] , img:""},
-  { name: "UTAH", price: 13, qt: 1, ingredients: ["Polpette al ragù","caciocavallo irpino Dop", "friarielli"] , img:""}
+  { name: "UTAH", price: 10, qt: 1, ingredients: ["Polpette al ragù","caciocavallo irpino Dop", "friarielli"] , img:""}
 ]
 
 const WRAP : FoodStore[] = [
