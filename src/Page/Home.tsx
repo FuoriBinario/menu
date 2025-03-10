@@ -9,7 +9,6 @@ import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP/*, CLASSICI*/, CARNE, VEGINSALA
 
 import ImgAntipasti from "./../Resource/category/antipasti.jpg";
 import ImgBun from "./../Resource/category/bun.jpg";
-import ImgBunClassic from "./../Resource/category/bunclassic.jpg";
 import ImgCiabatte from "./../Resource/category/ciabatte.jpg";
 import ImgWrap from "./../Resource/category/wrap.jpg";
 import ImgCarne from "./../Resource/category/carne.jpg";
@@ -19,8 +18,8 @@ import ImgBibite  from "./../Resource/category/bibite.png";
 import ImgBirreSpina from "./../Resource/category/birrespina.jpg";
 import ImgDolci from "./../Resource/category/dolci.png";
 
-import PaninoDelMese from "./../Resource/specialita/panino.jpg";
-import FritturaDelMese from "./../Resource/specialita/frittura.jpg";
+import PaninoDelMese from "./../Resource/specialita/panino.jpeg";
+import FritturaDelMese from "./../Resource/specialita/frittura.jpeg";
 
 import ImgStatusMenu from "./../Resource/icon/statusMenu.png";
 
@@ -50,25 +49,25 @@ function Home() {
             <div className={style.hiro}>
                 <div className={style.meseBox}>
                     <img src={PaninoDelMese} title="panino del mese" alt="foto panino del mese"/>
-                    <p>NEW YORK</p>
+                    <p>MINNEAPOLIS</p>
                 </div>
                 <ul>
-                    <li>Hamburger 200g, </li>
-                    <li>bacon, </li>
-                    <li>provola crispy, </li>
-                    <li>parmigiana di melanzane bianca, </li>
-                    <li>mayo al basilico </li>
+                    <li>Hamburger si marchigiana, </li>
+                    <li>Provola crispy, </li>
+                    <li>friarielli, </li>
+                    <li>mayonese piccante, </li>
+                    <li>tarallo sbriciolato</li>
                 </ul>
     
                 <ul className={style.rotateHiro}>
-                    <li>Arancino alla bolognese, </li>
-                    <li>cuore filante di provola, </li>
-                    <li>letto di fonduta di parmigiano,</li>
-                    <li>pesto al basilico</li>
+                    <li>Tortino di patate con, </li>
+                    <li>cuore di cheddar e bacon, </li>
+                    <li>cascata di cheddar,</li>
+                    <li>sbriciolata di bacon</li>
                 </ul>
                 <div className={style.meseBox +" "+ style.rotateHiro}>
                     <img src={FritturaDelMese} title="frittura del mese" alt="foto frittura del mese"/>
-                    <p>Arancino degli innamorati</p>
+                    <p>Tortino</p>
                 </div>
             </div>
             <h2>Menu</h2>
