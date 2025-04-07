@@ -34,8 +34,6 @@ const ANTIPASTI : FoodStore[] = [
   { name: "POLPETTINE CON FONDUTA CACIO E PEPE", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "POLPETTINE CON FONDUTA DI PARMIGIANO", price: 6.00, qt: 1, ingredients: [] , img:""},
   { name: "POLPETTINE DI PULLED PORK CON CUORE DI CHEDDAR", price: 6.00, qt: 3, ingredients: [] , img:""},
-  { name: "ANELLI DI POLLO AL BACON", price: 6.00, qt: 6, ingredients: [] , img:""},
-  { name: "BOCCONCINI DI CACIO E PEPE",price: 5.00, qt:3, ingredients:[],img:""}
 ];
 
 const TEGAMINI : FoodStore[] = [
@@ -50,14 +48,13 @@ const TEGAMINI : FoodStore[] = [
 ];
 
 const BUN : FoodStore[] = [
-  { name: "SAN ANTONIO", price: 14, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","baconnaise", "doppio bacon crispy", "patate al forno", "salsa special"] , img:"Santantonio"},
   { name: "BOSTON", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","english cheddar orange", "bacon croccante", "patatine fritte", "cipolla di tropea caramellata", "salsa bbq", "mayo"] , img:"Boston"},
   { name: "PHILADELPHIA", price: 14, qt: 1, ingredients: ["Hamburger di grana 300gr","parmigiana di patate", "doppio formaggio fuso", "parmacotto","uova", "mayo"] , img:"Philadelphia"},
   { name: "LOS ANGELES", price: 14, qt: 1, ingredients: ["Sovracosce di pollo crispy", "patate di Avezzano al forno", "caciocavallo silano DOP", "cipolla di tropea caramellata","bacon croccante", "mayo al peperoncino dello chef"] , img:"Losangeles"},
   { name: "SANTA BARBARA", price: 10, qt: 1, ingredients: ["Hamburger di maiale nero casertano 180gr", "provola di Agerola", "mortadella di bologna IGP", "patate al forno di Avezzano", "crema di pistacchio homemade"] , img:"Santabrarbara"},
   { name: "SAN FRANCISCO", price: 16, qt: 1, ingredients: ["Doppio hamburger marchigiana 200gr", "doppio english cheddar orange", "doppio bacon croccante", "doppia cipolla di tropea caramellata", "patate fritte"] , img:"Sanfrancisco"},
   { name: "LAS VEGAS", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 200gr", "parmigiana di melanzane bianca","patate al forno di Avezzano", "provola crispy","bacon croccante", "crema al pesto di basilico homemade"] , img:"Lasvegas"},
-  { name: "MONTEREY", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 250gr", "provola crispy", "parmigiana di melanzane bianca", "funghi champignon trifolati"] , img:"Monterey"},
+  { name: "MONTEREY", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 250gr", "provola crispy", "parmigiana di melanzane bianca", "funghi champignon trifolati","mayo al basilico"] , img:"Monterey"},
   { name: "NEW ORLEANS", price: 13, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr", "provola crispy","parmigiana di patate", "parmacotto", "tarallo sbriciolato", "mayo al pepe dello chef"] , img:"Neworleans"},
   { name: "COLORADO", price: 13, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","provola crispy","funghi champignon trifolati","battuto di pomodoro secco", "petali di formaggio", "prosciutto crudo di Parma","crema di funghi"] , img:"Colorado"},
   { name: "MIAMI", price: 10, qt: 1, ingredients: ["Pulled pork cottura slow and low","caciocavallo Irpino","cavolo viola coleslaw","cipolla di tropea caramellata"] , img:"Miami"},
