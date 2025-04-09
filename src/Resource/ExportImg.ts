@@ -25,7 +25,6 @@ import Portland from "./panini/portland.jpg";
 import Sandiego from "./panini/sandiego.jpg";
 import Sanfrancisco from "./panini/sanfrancisco.jpg";
 import Santabrarbara from "./panini/santabrarbara.jpg";
-import Santantonio from "./panini/santantonio.jpg";
 import Texas from "./panini/texas.jpg";
 
 import Entrecote from "./carni/entrecote.jpg";
@@ -68,6 +67,5 @@ export default {
     HamburgerMarchig,
     Pulledpork,
     Tagliata,
-    Santantonio,
     NotFound
 }
