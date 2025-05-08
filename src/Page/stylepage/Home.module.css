@@ -5,12 +5,12 @@ h2{
 }
 
 .hiro{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
     padding: 1rem 1rem;
 } 
 
-.hiro ul {
+/* .hiro ul {
     width: 100%;
     list-style: none;
     background-color: white;
@@ -18,11 +18,11 @@ h2{
     display: inline-block;
     transform: rotate(-10deg) translateY(-40px);
     box-shadow: -10px 10px 10px -10px rgba(0,0,0,0.2);
-}
-ul.rotateHiro{
+} */
+/* ul.rotateHiro{
     transform: rotate(7deg);
 
-}
+} */
 
 .hiro ul li{
     display: inline;
