@@ -151,8 +151,8 @@ const BIBITE : FoodStore[] = [
 const BIRREALLASPINA : FoodStore[] = [
   { name: "BROOKLYN PILSNER", price: 4, qt: 1, ingredients: ["25cl"] , img:""},
   { name: "BROOKLYN PILSNER", price: 6.50, qt: 1, ingredients: ["40cl"] , img:""},
-  { name: "BROOKLYN IPA", price: 4.50, qt: 1, ingredients: ["25cl"] , img:""},
-  { name: "BROOKLYN IPA", price: 8.50, qt: 1, ingredients: ["40cl"] , img:""},
+  { name: "TUCHER WEIZEN", price: 4.50, qt: 1, ingredients: ["25cl"] , img:""},
+  { name: "TUCHER WEIZEN", price: 8.50, qt: 1, ingredients: ["40cl"] , img:""},
   { name: "GRIMBERGEN (blonde)", price: 4.00, qt: 1, ingredients: ["25cl"] , img:""},
   { name: "GRIMBERGEN (blonde)", price: 8.00, qt: 1, ingredients: ["50cl"] , img:""},
   { name: "GRIMBERGEN (Double ambrèe)", price: 4.00, qt: 1, ingredients: ["25cl"] , img:""},
