@@ -53,7 +53,7 @@ const BUN : FoodStore[] = [
   { name: "MANHATTAN", price: 12, qt: 1, ingredients: ["Hamburger di pollo di 180 gr","cheddar","bacon croccante","cipolla caramellata","patate al forno di Avezzano","salsa special"] , img:""},
   { name: "ORLANDO", price: 12, qt: 1, ingredients: ["Pulled pork homemade cottura slow and low","bacon croccante","patate al forno di Avezzano","english cheddar orange","cipolla caramellata","salsa special dello chef"] , img:""},
   { name: "PANINO DELLO CHEF", price: 11, qt: 1, ingredients: ["Polpette fritte di marchigiana","formaggio fuso","friarielli","tarallo sbriciolato","mayo al peperoncino homemade"] , img:""},
-  { name: "SMASH BUN", price: 10, qt: 1, ingredients: ["Doppio hamburger marchigiana 100gr smashed","doppio english cheddar orange","doppio bacon croccante"] , img:"Smash"},
+  { name: "SMASH BUN", price: 10, qt: 1, ingredients: ["Doppio hamburger marchigiana 100gr smashed","doppio english cheddar orange","doppio bacon croccante"] , img:""},
   { name: "SMASH BUN 2.0", price: 12, qt: 1, ingredients: ["Doppio hamburger marchigiana 100gr smashed","doppio english cheddar orange","doppio bacon croccante","colata cheddar e bacon"] , img:""},
   { name: "TEXAS", price: 14, qt: 1, ingredients: ["Hamburger di marchigiana 250gr","provola di Agerola crispy","patate al forno di Avezzano","friarielli","prosciutto crudo di Parma","mayo al peperoncino dello chef"] , img:""},
   { name: "SANT ANTONIO", price: 14, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","baconnaise","doppio bacon crispy","patate al forno di Avezzano","salsa speciale dello chef"] , img:""},
