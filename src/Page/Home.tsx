@@ -47,9 +47,9 @@ function Home() {
         <>
             <h2>Specialità del mese</h2>
             <div className={style.hiro}>
-                <div className={style.meseBox}>
+                {/* <div className={style.meseBox}>
                     <img src={PaninoDelMese} title="panino del mese" alt="foto panino del mese"/>
-                </div>
+                </div> */}
     
                 <div className={style.meseBox +" "+ style.rotateHiro}>
                     <img src={FritturaDelMese} title="frittura del mese" alt="foto frittura del mese"/>
