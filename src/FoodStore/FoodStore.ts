@@ -9,13 +9,14 @@ type FoodStore =  {
 }
 
 const ANTIPASTI : FoodStore[] = [
+  { name: "ANELLI DI POLLO FRESCHI AVVOLTI DA BACON E PANATURA CRISPY ACCOMPAGNATI CON SALSA DELLO CHEF", price: 6.00, qt: 3, ingredients: [] , img:""},
   { name: "BANDITOS", price: 7.00, qt: 1, ingredients: ["pollo marinato con panatura croccante di cereali accompagnato con salse dello chef"] , img:""},
   { name: "PATATE STICK CLASSICHE", price: 6.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON PULLED PORK E CHEDDAR", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON CACIO E PEPE E POLPETTINE", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON BACON E CHEDDAR", price: 8.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON SALSICCIA DI FONDUTA DI PARMIGIANO", price: 7.00, qt: 1, ingredients: [] , img:""},
-  { name: "PATATE STICK CON TOCCHETTI A SCELTA", price: 6.00, qt: 1, ingredients: ["WURSTEL", "SALSICCIA", "PORCHETTA", "BACON", "POLPETTINE DI MANZO"] , img:""},
+  { name: "PATATE STICK CON TOCCHETTI A SCELTA", price: 6.00, qt: 1, ingredients: ["WURSTEL", "SALSICCIA", "BACON", "POLPETTINE DI MANZO"] , img:""},
   { name: "PATATE CHIPS CLASSICHE", price: 5.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE CHIPS CON PEPE ROSA E LIME", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE CHIPS CON CACIO E PEPE", price: 7.00, qt: 1, ingredients: [] , img:""},
@@ -32,8 +33,8 @@ const ANTIPASTI : FoodStore[] = [
   { name: "POLPETTINE IMPANATE COTTE AL FORNO", price: 8.00, qt: 3, ingredients: [] , img:""},
   { name: "POLPETTINE CHEDDAR E BACON", price: 7.00, qt: 3, ingredients: [] , img:""},
   { name: "POLPETTINE RIVISITATE FUORIBINARIO CON PANATURA SECRET DELLO CHEF E CUOR DI PROVOLA", price: 8.00, qt: 3, ingredients: [] , img:""},
-  { name: "PORZIONE DI PROVOLA CRISPY ACCOMPAGNATA CON SALSE DELLO CHEF", price: 6.00, qt: 1, ingredients: [] , img:""},
-  { name: "ANELLI DI POLLO FRESCHI AVVOLTI DA BACON E PANATURA CRISPY ACCOMPAGNATI CON SALSA DELLO CHEF", price: 6.00, qt: 1, ingredients: [] , img:""},
+  { name: "PORZIONE DI PROVOLA CRISPY", price: 6.00, qt: 3, ingredients: [] , img:""},
+  { name: "CRICK CROCK, STRACCETTI DI POLLO CON PANATURA CRISPY ACCOMPAGNATE CON SALSE DELLO CHEF", price: 6.00, qt: 3, ingredients: [] , img:""},
 ];
 
 const TEGAMINI : FoodStore[] = [
@@ -43,14 +44,14 @@ const TEGAMINI : FoodStore[] = [
 
 const BUN : FoodStore[] = [
   { name: "BOSTON", price: 12, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","english cheddar orange", "bacon croccante", "patatine fritte", "cipolla di tropea caramellata", "salsa bbq", "mayo"] , img:""},
-  { name: "PHILADELPHIA", price: 14, qt: 1, ingredients: ["Hamburger di grana 300gr","parmigiana di patate", "doppio formaggio fuso", "parmacotto","uova", "mayo"] , img:""},
+  { name: "PHILADELPHIA", price: 14, qt: 1, ingredients: ["Hamburger di grana 300gr","insalata iceberg", "doppio formaggio fuso", "parmacotto","uova", "mayo"] , img:""},
   { name: "LOS ANGELES", price: 14, qt: 1, ingredients: ["Sovracosce di pollo crispy", "patate di Avezzano al forno", "caciocavallo silano DOP", "cipolla di tropea caramellata","bacon croccante", "mayo al peperoncino dello chef"] , img:""},
   { name: "SANTA BARBARA", price: 10, qt: 1, ingredients: ["Hamburger di maiale nero casertano 180gr", "provola di Agerola", "mortadella di bologna IGP", "patate al forno di Avezzano", "crema di pistacchio homemade"] , img:""},
   { name: "SAN FRANCISCO", price: 16, qt: 1, ingredients: ["Doppio hamburger marchigiana 200gr", "doppio english cheddar orange", "doppio bacon croccante", "doppia cipolla di tropea caramellata", "patate fritte"] , img:""},
   { name: "LAS VEGAS", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 200gr", "parmigiana di melanzane rossa","patate al forno di Avezzano", "provola crispy","bacon croccante", "mayo al basilico homemade"] , img:""},
   { name: "NEW ORLEANS", price: 13, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr", "provola crispy","patate al forno di Avezzano", "parmacotto", "tarallo sbriciolato", "mayo al pepe dello chef"] , img:""},
   { name: "PORTLAND", price: 13, qt: 1, ingredients: ["Hamburger di pollo crispy","english cheddar orange","bacon","pomodoro cuore di bue","insalata iceberg","cipolla croccante","salsa special dello chef"] , img:""},
-  { name: "MANHATTAN", price: 12, qt: 1, ingredients: ["Hamburger di pollo di 180 gr","cheddar","bacon croccante","cipolla caramellata","patate al forno di Avezzano","salsa special"] , img:""},
+  { name: "MANHATTAN", price: 13, qt: 1, ingredients: ["Hamburger di pollo di 180 gr","cheddar","bacon croccante","cipolla caramellata","patate al forno di Avezzano","salsa special"] , img:""},
   { name: "ORLANDO", price: 12, qt: 1, ingredients: ["Pulled pork homemade cottura slow and low","bacon croccante","patate al forno di Avezzano","english cheddar orange","cipolla caramellata","salsa special dello chef"] , img:""},
   { name: "PANINO DELLO CHEF", price: 11, qt: 1, ingredients: ["Polpette fritte di marchigiana","formaggio fuso","friarielli","tarallo sbriciolato","mayo al peperoncino homemade"] , img:""},
   { name: "SMASH BUN", price: 10, qt: 1, ingredients: ["Doppio hamburger marchigiana 100gr smashed","doppio english cheddar orange","doppio bacon croccante"] , img:""},
@@ -60,7 +61,7 @@ const BUN : FoodStore[] = [
 ]
 
 const ROSETTE : FoodStore[] = [
-  { name: "DENVER", price: 13, qt: 1, ingredients: ["Polpette fritte","caciocavallo Irpino","parmigiana di melanzane bianca","prosciutto crudo di Parma","mayo al basilico dello chef"] , img:""},
+  { name: "DENVER", price: 13, qt: 1, ingredients: ["Polpette fritte","caciocavallo Irpino","patate al forno di Avezzano","prosciutto crudo di Parma","mayo al basilico dello chef"] , img:""},
   { name: "SAN DIEGO", price: 11, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","provola di Agerola","prosciutto crudo di Parma","pomodoro cuore di bue","insalata iceberg","mayo"] , img:""},
   { name: "MALIBÙ", price: 11, qt: 1, ingredients: ["Cotoletta di pollo crispy","provola di Agerola","funghi champignon trifolati","cipolla di tropea caramellata","mayo"] , img:""},
   { name: "SEATTLE", price: 12, qt: 1, ingredients: ["Banditos","parmacotto","provola di Agerola","patate al forno di Avezzano", "friarielli","mayo"] , img:""},
@@ -73,6 +74,11 @@ const WRAP : FoodStore[] = [
   { name: "INDIANAPOLIS", price: 13, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","prosciutto crudo di Parma","friarielli","tarallo napoletano sbriciolato","provola","mayo al pepe homemade"] , img:""},
   { name: "DALLAS", price: 12, qt: 1, ingredients: ["Melanzane grigliate","pomodori secchi","patate al forno di Avezzano","misticanza","caciocavallo silano DOP","mayo al basilico homemade"] , img:""},
   { name: "SAN JOSE", price: 11, qt: 1, ingredients: ["polpettine fritte","provola di Agerola","funghi champignon trifolati","parmacotto","mayo"] , img:""},
+]
+
+const BABYBINARIO : FoodStore[] = [
+  { name: "HAMBURGER", price: 7, qt: 1, ingredients: ["Hamburger","patatine fritte"] , img:""},
+  { name: "COTOLETTA", price: 7, qt: 1, ingredients: ["Cotoletta","patatine fritte"] , img:""},
 ]
 
 // const CLASSICI : FoodStore[] = [
@@ -117,15 +123,15 @@ const CONTORNI : FoodStore[] = [
 ]
 
 const BIBITE : FoodStore[] = [
-  { name: "ACQUA NATURALE", price: 2, qt: 1, ingredients: [] , img:""},
-  { name: "ACQUA MINERALE", price: 2, qt: 1, ingredients: [] , img:""},
-  { name: "COCA COLA in vetro", price: 2.50, qt: 1, ingredients: [] , img:""},
-  { name: "COCA COLA ZERO in vetro", price: 2.50, qt: 1, ingredients: [] , img:""},
-  { name: "FANTA in vetro", price: 2.50, qt: 1, ingredients: [] , img:""},
-  { name: "RED BULL", price: 2.50, qt: 1, ingredients: [] , img:""},
-  { name: "SCHWEPPES LIMONE", price: 2.50, qt: 1, ingredients: [] , img:""},
-  { name: "SCHWEPPES ARANCIA", price: 2.50, qt: 1, ingredients: [] , img:""},
-  { name: "SCHWEPPES TONICA", price: 2.50, qt: 1, ingredients: [] , img:""},
+  { name: "ACQUA NATURALE", price: 2.50, qt: 1, ingredients: [] , img:""},
+  { name: "ACQUA MINERALE", price: 2.50, qt: 1, ingredients: [] , img:""},
+  { name: "COCA COLA in vetro", price: 3, qt: 1, ingredients: [] , img:""},
+  { name: "COCA COLA ZERO in vetro", price: 3, qt: 1, ingredients: [] , img:""},
+  { name: "FANTA in vetro", price: 3, qt: 1, ingredients: [] , img:""},
+  { name: "RED BULL", price: 3, qt: 1, ingredients: [] , img:""},
+  { name: "SCHWEPPES LIMONE", price: 3, qt: 1, ingredients: [] , img:""},
+  { name: "SCHWEPPES ARANCIA", price: 3, qt: 1, ingredients: [] , img:""},
+  { name: "SCHWEPPES TONICA", price: 3, qt: 1, ingredients: [] , img:""},
 ]
 
 const BIRREALLASPINA : FoodStore[] = [
@@ -141,13 +147,21 @@ const BIRREALLASPINA : FoodStore[] = [
   { name: "CARLSBERG (Special brew)", price: 8.00, qt: 1, ingredients: ["40cl"] , img:""},
 ]
 
+const COCKTAIL : FoodStore[] = [
+  { name: "APEROL SPRITZ", price: 7, qt: 1, ingredients: [] , img:""},
+  { name: "APEROL TASTE", price: 7, qt: 1, ingredients: [] , img:""},
+  { name: "GIN TONIC", price: 7, qt: 1, ingredients: [] , img:""},
+  { name: "GIN LEMON", price: 7, qt: 1, ingredients: [] , img:""}
+]
+
 const DOLCI : FoodStore[] = [
   { name: "VOGLIA DI DOLCI?", price: 6, qt: 1, ingredients: ["Chiedere al personale"] , img:""},
 ]
 
 export default FoodStore;
 export {ANTIPASTI,
-  BUN, 
+  BUN,
+  BABYBINARIO,
   // CLASSICI,
   ROSETTE, 
   WRAP,
@@ -157,6 +171,7 @@ export {ANTIPASTI,
   TEGAMINI,
   BIBITE,
   BIRREALLASPINA,
+  COCKTAIL,
   DOLCI
 };
   
