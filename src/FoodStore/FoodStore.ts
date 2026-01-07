@@ -9,14 +9,12 @@ type FoodStore =  {
 }
 
 const ANTIPASTI : FoodStore[] = [
-  { name: "ANELLI DI POLLO FRESCHI AVVOLTI DA BACON E PANATURA CRISPY ACCOMPAGNATI CON SALSA DELLO CHEF", price: 6.00, qt: 3, ingredients: [] , img:""},
-  { name: "BANDITOS", price: 7.00, qt: 1, ingredients: ["pollo marinato con panatura croccante di cereali accompagnato con salse dello chef"] , img:""},
-  { name: "PATATE STICK CLASSICHE", price: 6.00, qt: 1, ingredients: [] , img:""},
+  { name: "PATATE STICK CLASSICHE", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON PULLED PORK E CHEDDAR", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON CACIO E PEPE E POLPETTINE", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON BACON E CHEDDAR", price: 8.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE STICK CON SALSICCIA DI FONDUTA DI PARMIGIANO", price: 7.00, qt: 1, ingredients: [] , img:""},
-  { name: "PATATE STICK CON TOCCHETTI A SCELTA", price: 6.00, qt: 1, ingredients: ["WURSTEL", "SALSICCIA", "BACON", "POLPETTINE DI MANZO"] , img:""},
+  { name: "PATATE STICK CON TOCCHETTI A SCELTA", price: 6.00, qt: 1, ingredients: ["WURSTEL", "SALSICCIA", "BACON", "POLPETTINE DI MANZO","STRACCETTI DI POLLO CROCCANTI"] , img:""},
   { name: "PATATE CHIPS CLASSICHE", price: 5.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE CHIPS CON PEPE ROSA E LIME", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE CHIPS CON CACIO E PEPE", price: 7.00, qt: 1, ingredients: [] , img:""},
@@ -25,6 +23,15 @@ const ANTIPASTI : FoodStore[] = [
   { name: "PATATE AL FORNO CON CACIOCAVALLO, MORTADELLA E CREMA DI PISTACCHIO", price: 8.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE AL FORNO CON CHEDDAR E BACON", price: 8.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE AL FORNO CON POLPETTE E FONDUTA CACIO E PEPE", price: 7.00, qt: 1, ingredients: [] , img:""},
+  { name: "PATATE CON STRACCETTI DI POLLO CLASSICA", price: 7.00, qt: 1, ingredients: ["FONDUTA DI PARMIGGIANO +1€", "CHEDDAR +1€", "CACIO E PEPE +1€", "CASCATA DI FORMAGGIO +1€"] , img:""},
+  { name: "PATATE CON STRACCETTI DI POLLO CON AGGIUNTA DI FORMAGGIO", price: 7.00, qt: 1, ingredients: [] , img:""},
+
+  { name: "PORZIONE DI PROVOLA CRISPY", price: 6.00, qt: 3, ingredients: [] , img:""},
+];
+
+const POLPETTERIAEPOLLO : FoodStore[] = [
+  { name: "ALETTE BBQ", price: 6.00, qt: 5, ingredients: [] , img:""},
+  { name: "MAIS, FORMAGGIO E PROSCIUTTO", price: 6.00, qt: 1, ingredients: [] , img:""},
   { name: "POLPETTINE CLASSICHE", price: 5.00, qt: 1, ingredients: [] , img:""},
   { name: "POLPETTE DI MELANZANE", price: 5.00, qt: 1, ingredients: [] , img:""},
   { name: "POLPETTINE CON FONDUTA CACIO E PEPE", price: 7.00, qt: 1, ingredients: [] , img:""},
@@ -33,13 +40,9 @@ const ANTIPASTI : FoodStore[] = [
   { name: "POLPETTINE IMPANATE COTTE AL FORNO", price: 8.00, qt: 3, ingredients: [] , img:""},
   { name: "POLPETTINE CHEDDAR E BACON", price: 7.00, qt: 3, ingredients: [] , img:""},
   { name: "POLPETTINE RIVISITATE FUORIBINARIO CON PANATURA SECRET DELLO CHEF E CUOR DI PROVOLA", price: 8.00, qt: 3, ingredients: [] , img:""},
-  { name: "PORZIONE DI PROVOLA CRISPY", price: 6.00, qt: 3, ingredients: [] , img:""},
   { name: "CRICK CROCK, STRACCETTI DI POLLO CON PANATURA CRISPY ACCOMPAGNATE CON SALSE DELLO CHEF", price: 6.00, qt: 3, ingredients: [] , img:""},
-];
-
-const TEGAMINI : FoodStore[] = [
-  { name: "ALETTE BBQ", price: 6.00, qt: 5, ingredients: [] , img:""},
-  { name: "MAIS, FORMAGGIO E PROSCIUTTO", price: 6.00, qt: 1, ingredients: [] , img:""},
+  { name: "ANELLI DI POLLO FRESCHI AVVOLTI DA BACON E PANATURA CRISPY ACCOMPAGNATI CON SALSA DELLO CHEF", price: 6.00, qt: 3, ingredients: [] , img:""},
+  { name: "BANDITOS", price: 7.00, qt: 1, ingredients: ["pollo marinato con panatura croccante di cereali accompagnato con salse dello chef"] , img:""},
 ];
 
 const BUN : FoodStore[] = [
@@ -168,7 +171,7 @@ export {ANTIPASTI,
   CARNE,
   VEGINSALATE,
   CONTORNI,
-  TEGAMINI,
+  POLPETTERIAEPOLLO,
   BIBITE,
   BIRREALLASPINA,
   COCKTAIL,

@@ -4,7 +4,7 @@ import style from "./stylepage/Home.module.css";
 
 import CategoryCard from "./../Component/CategoryCard/CategoryCard";
 
-import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP, BABYBINARIO/*, CLASSICI*/, CARNE, VEGINSALATE, CONTORNI, BIBITE, BIRREALLASPINA, COCKTAIL, DOLCI, TEGAMINI} from "./../FoodStore/FoodStore"
+import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP, BABYBINARIO/*, CLASSICI*/, CARNE, VEGINSALATE, CONTORNI, BIBITE, BIRREALLASPINA, COCKTAIL, DOLCI, POLPETTERIAEPOLLO} from "./../FoodStore/FoodStore"
 
 
 import ImgAntipasti from "./../Resource/category/antipasti.jpg";
@@ -61,7 +61,7 @@ function Home() {
 
             <div className={style.categoryBox} id="navigation">
                 <CategoryCard name="Antipasti" route="#antipasti" img={ImgAntipasti} onClick={e => toggleMenu(e, "antipasti")}/>
-                <CategoryCard name="Tegamini al forno" route="#tegamini" img={ImgContorni} onClick={e => toggleMenu(e, "tegamini")}/>
+                <CategoryCard name="Polpetteria e pollo" route="#polpetteriaepollo" img={ImgContorni} onClick={e => toggleMenu(e, "polpetteriaepollo")}/>
                 <CategoryCard name="Bun" route="#bun" img={ImgBun} onClick={e => toggleMenu(e, "bun")}/>
                 <CategoryCard name="Rosette" route="#rosette" img={ImgCiabatte} onClick={e => toggleMenu(e, "rosette")}/>
                 <CategoryCard name="Wrap" route="#wrap" img={ImgWrap} onClick={e => toggleMenu(e, "wrap")}/>
@@ -87,14 +87,14 @@ function Home() {
                             {ANTIPASTI.map((food : FoodStore, index) => <FoodInLine food={food} treno="ANTIPASTO" key={index+"_"+food.name}/>)}
                         </div>
                     </li>
-                    <li id="tegamini" className={style.listBox}>
+                    <li id="polpetteriaepollo" className={style.listBox}>
                         <div className={style.menuCategory}>
-                            <p>Tegamini</p>
+                            <p>polpetteria e pollo</p>
                             <Link to="#navigation" reloadDocument>Vai su</Link>
-                            <button onClick={e => toggleMenu(e , "tegamini", true)}><img src={ImgStatusMenu} title="mostra/nascondi" alt="icona"/></button>
+                            <button onClick={e => toggleMenu(e , "polpetteriaepollo", true)}><img src={ImgStatusMenu} title="mostra/nascondi" alt="icona"/></button>
                         </div>
                         <div className={style.list}>
-                            {TEGAMINI.map((food : FoodStore, index) => <FoodInLine food={food} treno="TEGAMINI" key={index+"_"+food.name}/>)}
+                            {POLPETTERIAEPOLLO.map((food : FoodStore, index) => <FoodInLine food={food} treno="POLPETTERIAEPOLLO" key={index+"_"+food.name}/>)}
                         </div>
                     </li>
                     <li id="bun" className={style.listBox}>
