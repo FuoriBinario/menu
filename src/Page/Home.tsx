@@ -10,6 +10,7 @@ import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP, BABYBINARIO/*, CLASSICI*/, CAR
 import ImgAntipasti from "./../Resource/category/antipasti.jpg";
 import ImgBun from "./../Resource/category/bun.jpg";
 import ImgBabyBinario from "./../Resource/category/santabrarbara.jpg";
+import ImgPolpetteriaepollo from "./../Resource/category/polpetteriaepollo.png";
 import ImgCiabatte from "./../Resource/category/ciabatte.jpg";
 import ImgWrap from "./../Resource/category/wrap.jpg";
 import ImgCarne from "./../Resource/category/carne.jpg";
@@ -61,7 +62,7 @@ function Home() {
 
             <div className={style.categoryBox} id="navigation">
                 <CategoryCard name="Antipasti" route="#antipasti" img={ImgAntipasti} onClick={e => toggleMenu(e, "antipasti")}/>
-                <CategoryCard name="Polpetteria e pollo" route="#polpetteriaepollo" img={ImgContorni} onClick={e => toggleMenu(e, "polpetteriaepollo")}/>
+                <CategoryCard name="Polpetteria e pollo" route="#polpetteriaepollo" img={ImgPolpetteriaepollo} onClick={e => toggleMenu(e, "polpetteriaepollo")}/>
                 <CategoryCard name="Bun" route="#bun" img={ImgBun} onClick={e => toggleMenu(e, "bun")}/>
                 <CategoryCard name="Rosette" route="#rosette" img={ImgCiabatte} onClick={e => toggleMenu(e, "rosette")}/>
                 <CategoryCard name="Wrap" route="#wrap" img={ImgWrap} onClick={e => toggleMenu(e, "wrap")}/>
