@@ -8,6 +8,7 @@ import FoodStore, {ANTIPASTI, BUN, ROSETTE, WRAP, BABYBINARIO/*, CLASSICI*/, CAR
 
 
 import ImgAntipasti from "./../Resource/category/antipasti.jpg";
+import ImgPolpette from "./../Resource/category/polpetteriaepollo.png";
 import ImgBun from "./../Resource/category/bun.jpg";
 import ImgBabyBinario from "./../Resource/category/santabrarbara.jpg";
 import ImgCiabatte from "./../Resource/category/ciabatte.jpg";
@@ -19,9 +20,6 @@ import ImgBibite  from "./../Resource/category/bibite.png";
 import ImgBirreSpina from "./../Resource/category/birrespina.jpg";
 import ImgCocktail from "./../Resource/category/cocktail.jpg";
 import ImgDolci from "./../Resource/category/dolci.png";
-
-import PaninoDelMese from "./../Resource/specialita/panino.jpeg";
-import FritturaDelMese from "./../Resource/specialita/frittura.jpeg";
 
 import ImgStatusMenu from "./../Resource/icon/statusMenu.png";
 
@@ -47,19 +45,15 @@ function Home() {
 
     return (
         <>
-            <h2>Specialità del mese</h2>
-            
             <h2>Menu</h2>
-
 
             <div className={style.categoryBox} id="navigation">
                 <CategoryCard name="Antipasti" route="#antipasti" img={ImgAntipasti} onClick={e => toggleMenu(e, "antipasti")}/>
-                <CategoryCard name="Polpetteria e pollo" route="#polpetteriaepollo" img={ImgContorni} onClick={e => toggleMenu(e, "polpetteriaepollo")}/>
+                <CategoryCard name="Polpetteria e pollo" route="#polpetteriaepollo" img={ImgPolpette} onClick={e => toggleMenu(e, "polpetteriaepollo")}/>
                 <CategoryCard name="Bun" route="#bun" img={ImgBun} onClick={e => toggleMenu(e, "bun")}/>
                 <CategoryCard name="Rosette" route="#rosette" img={ImgCiabatte} onClick={e => toggleMenu(e, "rosette")}/>
                 <CategoryCard name="Wrap" route="#wrap" img={ImgWrap} onClick={e => toggleMenu(e, "wrap")}/>
                 <CategoryCard name="Baby binario" route="#babybinario" img={ImgBabyBinario} onClick={e => toggleMenu(e, "babybinario")}/>
-                {/* <CategoryCard name="Classici" route="#classici" img={ImgBunClassic} onClick={e => toggleMenu(e, "classici")}/> */}
                 <CategoryCard name="Carne" route="#carne" img={ImgCarne} onClick={e => toggleMenu(e, "carne")}/>
                 <CategoryCard name="Veg Insalate" route="#veginsalate" img={ImgVegInsalate} onClick={e => toggleMenu(e, "veginsalate")}/>
                 <CategoryCard name="Contorni" route="#contorni" img={ImgContorni} onClick={e => toggleMenu(e, "contorni")}/>

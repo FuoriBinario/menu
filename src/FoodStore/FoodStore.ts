@@ -1,5 +1,3 @@
-import ExportImg from "../Resource/ExportImg";
-
 type FoodStore =  {
     name: string,
     price: number,
