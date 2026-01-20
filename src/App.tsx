@@ -1,7 +1,7 @@
-import React, { useContext, useEffect, useState } from 'react';
+import { useState } from 'react';
 import { I_PopupContext, PopUpContext } from './store/context';
 
-import { Navigate, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import {RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import Root from './Page/Root';
 import './App.module.css';

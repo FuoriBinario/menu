@@ -12,7 +12,7 @@ const FoodCard : FC<{food: FoodStore}> = ({ food }) => {
     function ToggleIngredients(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, name:string){
         e.stopPropagation();
 
-        let element = e.target as HTMLButtonElement;
+        // let element = e.target as HTMLButtonElement;
         let ingredientsBox = document.getElementById(name);
         
         ingredientsBox.classList.toggle(style.active);

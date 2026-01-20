@@ -34,7 +34,7 @@ import HamburgerMarchig from "./carni/hamburgermarchig.jpg";
 import Pulledpork from "./carni/pulledpork.jpg";
 import Tagliata from "./carni/tagliata.jpg";
 
-export default {
+const images =  {
     Logo,
     Manhattan,
     Monterey,
@@ -69,3 +69,6 @@ export default {
     Tagliata,
     NotFound
 }
+
+
+export default images;
