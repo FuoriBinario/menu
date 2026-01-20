@@ -60,6 +60,7 @@ function Home() {
             </div>
             <h2>Menu</h2>
 
+
             <div className={style.categoryBox} id="navigation">
                 <CategoryCard name="Antipasti" route="#antipasti" img={ImgAntipasti} onClick={e => toggleMenu(e, "antipasti")}/>
                 <CategoryCard name="Polpetteria e pollo" route="#polpetteriaepollo" img={ImgPolpetteriaepollo} onClick={e => toggleMenu(e, "polpetteriaepollo")}/>
