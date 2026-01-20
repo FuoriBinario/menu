@@ -46,6 +46,10 @@ function Home() {
     return (
         <>
             <h2>Menu</h2>
+            {/* <div className={style.hiro}>
+                
+                </div> */
+            }
 
             <div className={style.categoryBox} id="navigation">
                 <CategoryCard name="Antipasti" route="#antipasti" img={ImgAntipasti} onClick={e => toggleMenu(e, "antipasti")}/>

@@ -43,7 +43,7 @@ const POLPETTERIAEPOLLO : FoodStore[] = [
   { name: "ALETTE BBQ", price: 6.00, qt: 5, ingredients: [] , img:""},
   { name: "CRICK CROCK, STRACCETTI DI POLLO CON PANATURA CRISPY ACCOMPAGNATE CON SALSE DELLO CHEF", price: 6.00, qt: 3, ingredients: [] , img:""},
   { name: "ANELLI DI POLLO FRESCHI AVVOLTI DA BACON E PANATURA CRISPY ACCOMPAGNATI CON SALSA DELLO CHEF", price: 6.00, qt: 3, ingredients: [] , img:""},
-  { name: "BANDITOS", price: 7.00, qt: 1, ingredients: ["pollo marinato con panatura croccante di cereali accompagnato con salse dello chef"] , img:""},
+  { name: "BANDITOS", price: 7.00, qt: 1, ingredients: ["pollo marinato con panatura croccante di cereali accompagnato con salsa dello chef"] , img:""},
 ];
 
 const BUN : FoodStore[] = [
@@ -65,7 +65,7 @@ const BUN : FoodStore[] = [
 ]
 
 const ROSETTE : FoodStore[] = [
-  { name: "DENVER", price: 13, qt: 1, ingredients: ["Polpette fritte","caciocavallo Irpino","patate al forno di Avezzano","prosciutto crudo di Parma","mayo al basilico dello chef"] , img:""},
+  { name: "DENVER", price: 13, qt: 1, ingredients: ["Polpette fritte","caciocavallo Irpino","Melanzane grigliate","prosciutto crudo di Parma","mayo al basilico dello chef"] , img:""},
   { name: "SAN DIEGO", price: 11, qt: 1, ingredients: ["Hamburger di marchigiana 200gr","provola di Agerola","prosciutto crudo di Parma","pomodoro cuore di bue","insalata iceberg","mayo"] , img:""},
   { name: "MALIBÙ", price: 11, qt: 1, ingredients: ["Cotoletta di pollo crispy","provola di Agerola","funghi champignon trifolati","cipolla di tropea caramellata","mayo"] , img:""},
   { name: "SEATTLE", price: 12, qt: 1, ingredients: ["Banditos","parmacotto","provola di Agerola","patate al forno di Avezzano", "friarielli","mayo"] , img:""},
@@ -78,6 +78,7 @@ const WRAP : FoodStore[] = [
   { name: "INDIANAPOLIS", price: 13, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr","prosciutto crudo di Parma","friarielli","tarallo napoletano sbriciolato","provola","mayo al pepe homemade"] , img:""},
   { name: "DALLAS", price: 12, qt: 1, ingredients: ["Melanzane grigliate","pomodori secchi","patate al forno di Avezzano","misticanza","caciocavallo silano DOP","mayo al basilico homemade"] , img:""},
   { name: "SAN JOSE", price: 11, qt: 1, ingredients: ["polpettine fritte","provola di Agerola","funghi champignon trifolati","parmacotto","mayo"] , img:""},
+  { name: "OKLAHOMA WRAP", price: 12, qt: 1, ingredients: ["Zucchine grigliate, patate al forno di Avezzano, provola di Agerola, pomodori semi-dry, nocciole del Piemonte, mayo al pepe dello chef"] , img:""},
 ]
 
 const BABYBINARIO : FoodStore[] = [
@@ -109,13 +110,11 @@ const VEGINSALATE : FoodStore[] = [
   { name: "OKLAHOMA WRAP", price: 12, qt: 1, ingredients: ["Zucchine grigliate, patate al forno di Avezzano, provola di Agerola, pomodori semi-dry, nocciole del Piemonte, mayo al pepe dello chef"] , img:""},
   { name: "DALLAS WRAP", price: 12, qt: 1, ingredients: ["Melanzane grigliate, pomodori secchi, patate al forno di Avezzano, misticanza insalata mista, caciocavallo silano DOP, mayo al basilico dello chef"] , img:""},
   { name: "VIRGINIA BUN", price: 14, qt: 1, ingredients: ["hamburger vegetariano,caciocavallo silano DOP, melanzane grill, nocciole del Piemonte IGP e mayo al peperoncino dello chef","patate al forno"] , img:""},
-  { name: "NEVADA", price: 10, qt: 1, ingredients: ["Insalata,rucola, cipolla rossa, pomodorini, zucchine grill, crostini, tonno rio mare, olive nere, pomodori semi-dry"] , img:""},
-  { name: "CALIFORNIA", price: 12, qt: 1, ingredients: ["Insalata, carote,pomodorini, melanzane grill, mozzarelline dei monti lattari, mais,crostini"] , img:""},
   { name: "TENNESSEE", price: 10, qt: 1, ingredients: ["Pollo alla piastra, insalata iceberg, crostini, fonduta di formaggio e scaglie di parmigiano"] , img:""},
 ]
 
 const CONTORNI : FoodStore[] = [
-  { name: "FUNGHI CHAMPIHNON TRIFOLATI", price: 4, qt: 1, ingredients: [] , img:""},
+  { name: "FUNGHI CHAMPIGNON TRIFOLATI", price: 4, qt: 1, ingredients: [] , img:""},
   { name: "ZUCCHINE GRIGLIATE", price: 4, qt: 1, ingredients: [] , img:""},
   { name: "MELANZANE GRIGLIATE", price: 4, qt: 1, ingredients: [] , img:""},
   { name: "CIPOLLA CARAMELLATA", price: 4, qt: 1, ingredients: [] , img:""},
@@ -124,6 +123,7 @@ const CONTORNI : FoodStore[] = [
   { name: "INSALATA ICEBERG ", price: 3, qt: 1, ingredients: [] , img:""},
   { name: "MISTICANZA (insalata mista)", price: 3, qt: 1, ingredients: [] , img:""},
   { name: "POMODORI SORRENTO", price: 3, qt: 1, ingredients: [] , img:""},
+  { name: "PARMIGIANA DI MELANZANE AL RAGÙ", price: 7, qt: 1, ingredients: [] , img:""}
 ]
 
 const BIBITE : FoodStore[] = [
@@ -153,7 +153,7 @@ const BIRREALLASPINA : FoodStore[] = [
 
 const COCKTAIL : FoodStore[] = [
   { name: "APEROL SPRITZ", price: 7, qt: 1, ingredients: [] , img:""},
-  { name: "APEROL TASTE", price: 7, qt: 1, ingredients: [] , img:""},
+  { name: "APEROL TAS", price: 7, qt: 1, ingredients: [] , img:""},
   { name: "GIN TONIC", price: 7, qt: 1, ingredients: [] , img:""},
   { name: "GIN LEMON", price: 7, qt: 1, ingredients: [] , img:""}
 ]
