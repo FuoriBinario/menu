@@ -22,7 +22,7 @@ const ANTIPASTI : FoodStore[] = [
   { name: "PATATE AL FORNO CON CHEDDAR E BACON", price: 8.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE AL FORNO CON POLPETTE E FONDUTA CACIO E PEPE", price: 7.00, qt: 1, ingredients: [] , img:""},
   { name: "PATATE CON STRACCETTI DI POLLO CLASSICA", price: 7.00, qt: 1, ingredients: [] , img:""},
-  { name: "PATATE CON STRACCETTI DI POLLO CON AGGIUNTA DI UN FORMAGGIO TRA:", price: 8.00, qt: 1, ingredients: ["FONDUTA DI PARMIGGIANO", "CHEDDAR", "CACIO E PEPE", "CASCATA DI FORMAGGIO"] , img:""},
+  { name: "PATATE CON STRACCETTI DI POLLO CON AGGIUNTA DI UN FORMAGGIO TRA:", price: 8.00, qt: 1, ingredients: ["FONDUTA DI PARMIGGIANO", "CHEDDAR", "CACIO E PEPE", "SCAGLIE DI FORMAGGIO"] , img:""},
   { name: "PORZIONE DI PROVOLA CRISPY", price: 6.00, qt: 3, ingredients: [] , img:""},
   { name: "MAIS, FRITTO", price: 5.00, qt: 1, ingredients: [] , img:""},
   { name: "MAIS, FORMAGGIO E PROSCIUTTO", price: 6.00, qt: 1, ingredients: [] , img:""},
@@ -52,7 +52,7 @@ const BUN : FoodStore[] = [
   { name: "LOS ANGELES", price: 14, qt: 1, ingredients: ["Sovracosce di pollo crispy", "zucchine grigliate", "caciocavallo silano DOP", "cipolla di tropea caramellata","bacon croccante", "mayo al peperoncino dello chef"] , img:""},
   { name: "SANTA BARBARA", price: 10, qt: 1, ingredients: ["Hamburger di maiale nero casertano 180gr", "provola di Agerola", "mortadella di bologna IGP", "patate al forno di Avezzano", "crema di pistacchio homemade"] , img:""},
   { name: "SAN FRANCISCO", price: 16, qt: 1, ingredients: ["Doppio hamburger marchigiana 200gr", "doppio english cheddar orange", "doppio bacon croccante", "doppia cipolla di tropea caramellata", "patate fritte"] , img:""},
-  { name: "LAS VEGAS", price: 13, qt: 1, ingredients: ["Hamburger di marchigiana 200gr", "parmigiana di melanzane rossa","patate al forno di Avezzano", "provola crispy","bacon croccante", "mayo al basilico homemade"] , img:""},
+  { name: "LAS VEGAS", price: 15, qt: 1, ingredients: ["Hamburger di marchigiana 200gr", "parmigiana di melanzane rossa","patate al forno di Avezzano", "provola crispy","bacon croccante", "mayo al basilico homemade"] , img:""},
   { name: "NEW ORLEANS", price: 13, qt: 1, ingredients: ["Hamburger di maialino nero casertano 180gr", "provola crispy","patate al forno di Avezzano", "parmacotto", "tarallo sbriciolato", "mayo al pepe dello chef"] , img:""},
   { name: "PORTLAND", price: 13, qt: 1, ingredients: ["Hamburger di pollo crispy","english cheddar orange","bacon","pomodoro cuore di bue","insalata iceberg","cipolla croccante","salsa special dello chef"] , img:""},
   { name: "MANHATTAN", price: 13, qt: 1, ingredients: ["Hamburger di pollo crispy","cheddar","bacon croccante","cipolla caramellata","patate al forno di Avezzano","salsa special dello chef"] , img:""},
@@ -104,6 +104,8 @@ const CARNE : FoodStore[] = [
   { name: "HAMBURGER DI GRANA 300GR", price: 14, qt: 1, ingredients: ["contorni a scelta non compresi nel prezzo"] , img:"HamburgerDiGrana"},
   { name: "HAMBURGER DI MARCHIGIANA 250GR", price: 14, qt: 1, ingredients: ["contorni a scelta non compresi nel prezzo"] , img:"HamburgerMarchig"},
   { name: "PULLED PORK", price: 8, qt: 1, ingredients: ["contorni a scelta non compresi nel prezzo"] , img:"Pulledpork"},
+  { name: "BISTECCHA DI MANZETTA", price: 7, qt: 1, ingredients: ["il prezzo è da considerarsi all'etto"] , img:""},
+  { name: "TAGLIERE DELLO CHEF X2", price:40, qt:1, ingredients: ["brisket cotto a bassa temperatura", "coscette e alette di pollo alla bbq", "pulled pork", "Marshmallow di bacon", "pork ribes","pannocchia","banditos","crik crok", "pasta al forno o patate fritte", "salsa dello chef", "cheddar", "accompagnato da pane tostato"], img:""}
 ]
 
 const VEGINSALATE : FoodStore[] = [
