@@ -105,7 +105,7 @@ const CARNE : FoodStore[] = [
   { name: "HAMBURGER DI MARCHIGIANA 250GR", price: 14, qt: 1, ingredients: ["contorni a scelta non compresi nel prezzo"] , img:"HamburgerMarchig"},
   { name: "PULLED PORK", price: 8, qt: 1, ingredients: ["contorni a scelta non compresi nel prezzo"] , img:"Pulledpork"},
   { name: "BISTECCHA DI MANZETTA", price: 7, qt: 1, ingredients: ["il prezzo è da considerarsi all'etto"] , img:""},
-  { name: "TAGLIERE DELLO CHEF X2", price:40, qt:1, ingredients: ["brisket cotto a bassa temperatura", "coscette e alette di pollo alla bbq", "pulled pork, Candy pig, pork ribes","pannocchia, banditos, crik crok", "pasta al forno o patate fritte", "salsa dello chef, cheddar" ,"accompagnato da pane tostato"], img:""}
+  { name: "TAGLIERE DELLO CHEF X2", price:40, qt:1, ingredients: ["brisket cotto a bassa temperatura", "coscette e alette di pollo alla bbq", "pulled pork, Candy pig, pork ribes","pannocchia, banditos, crik crok", "salsa dello chef, cheddar" ,"accompagnato da pane tostato"], img:""}
 ]
 
 const VEGINSALATE : FoodStore[] = [
