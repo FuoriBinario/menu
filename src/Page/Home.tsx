@@ -45,8 +45,8 @@ function Home() {
 
     return (
         <>
+            <p className={style.segnaletica}>Dai panini si possono togliere ingredienti ma non aggiungerli!</p>
             <h2>Menu</h2>
-            <p className={style.segnaletica}>Possibilità di rimuovere gli ingredienti ma no di aggiungerli!</p>
             {/* <div className={style.hiro}>
                 
                 </div> */

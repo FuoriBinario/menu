@@ -15,11 +15,13 @@ h2{
     padding: 1em;
     text-align: center;
     font-weight: bold;
-    background-color: var(--first);
+    background-color: var(--second);
+    color: var(--bg);
     letter-spacing: 0.1px;
     border:1px solid var(--text);
     font-family:'Courier New', Courier, monospace;
-    margin-bottom: 1.5em;
+    margin:0px auto 2em;
+    max-width: 300px;
 
 }
 /* .hiro ul {
