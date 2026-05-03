@@ -1,7 +1,7 @@
 h2{
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .hiro{
@@ -10,6 +10,18 @@ h2{
     padding: 1rem 1rem;
 } 
 
+
+.segnaletica{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--first);
+    letter-spacing: 0.1px;
+    border:1px solid var(--text);
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 1.5em;
+
+}
 /* .hiro ul {
     width: 100%;
     list-style: none;
